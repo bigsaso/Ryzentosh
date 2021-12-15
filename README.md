@@ -5,12 +5,12 @@ MacOS on my custom built PC
 Everything except Airdrop and Facetime
 
 # PC Components
-CPU: AMD Ryzen 5 3400G
-GPU: AMD Radeon RX 580
-RAM: 16GB DDR4 3200MHz
-SSD: 240GB Kingston SSD
-USD Wi-Fi Adapter: https://www.amazon.ca/gp/product/B0819HRFL7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
-USB Bluetooth Adapter: https://www.amazon.ca/gp/product/B00DJ83070/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+CPU: AMD Ryzen 5 3400G <br />
+GPU: AMD Radeon RX 580 <br />
+RAM: 16GB DDR4 3200MHz <br />
+SSD: 240GB Kingston SSD <br />
+USD Wi-Fi Adapter: https://www.amazon.ca/gp/product/B0819HRFL7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 <br />
+USB Bluetooth Adapter: https://www.amazon.ca/gp/product/B00DJ83070/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 <br />
 
 # File Download Phase
 1.	Checked the computer’s hardware for compatibility
@@ -38,5 +38,5 @@ USB Bluetooth Adapter: https://www.amazon.ca/gp/product/B00DJ83070/ref=ppx_yo_dt
 10.	Modified the config.plist to work with the hardware and kexts using ProperTree (https://github.com/corpnewt/ProperTree)
 11.	At this point all that is left is to generate a serial number and this was done using GenSMBIOS
 # Installation Phase
-At this point, the boot phase started and a lot of debugging the kernel was done in order to fine tune all the kernel extensions to work perfectly with the components. After three hours of preparation, installation, and debugging, MacOS was finally installed on my custom-built PC!!
+At this point, the boot phase started and a lot of debugging the kernel was done in order to fine tune all the kernel extensions to work perfectly with the components. After three hours of preparation, installation, and debugging, MacOS was finally installed on my custom-built PC!! <br />
 One last thing that was done was downloading MountEFI (from https://github.com/corpnewt/MountEFI) and use it to mount the EFI folder on the MacOS installation so that boot was possible without the need of keeping the USB plugged in the PC all the time.
