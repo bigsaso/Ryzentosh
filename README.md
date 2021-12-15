@@ -34,7 +34,7 @@ USB Bluetooth Adapter: https://www.amazon.ca/gp/product/B00DJ83070/ref=ppx_yo_dt
   d.	Pressed 3 to set plugin-type to 1 on CPU0/PR00 <br />
       >Now MacOS will know the pc’s hardware. <br />
       >Under the results folder, took “SSDT-EC.aml”, “SSDT-HPET.aml”, and “SSDT-PLUG.aml” files and moved them to the USB into “EFI/OC/ACPI”. <br />
-      >The DSDT is the largest and most important table because this is where the motherboard devices are described. As the DSDT, along with other ACPI tables, is stored in the        BIOS only on-board hardware is described. 
+      >>The DSDT is the largest and most important table because this is where the motherboard devices are described. As the DSDT, along with other ACPI tables, is stored in the        BIOS only on-board hardware is described. 
 9.  Rename “Sample.plist” to “config.plist”
 10.	Modified the config.plist to work with the hardware and kexts using ProperTree (https://github.com/corpnewt/ProperTree)
 11.	At this point all that is left is to generate a serial number and this was done using GenSMBIOS
