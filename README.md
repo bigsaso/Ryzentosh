@@ -29,7 +29,7 @@ USB Bluetooth Adapter: https://www.amazon.ca/gp/product/B00DJ83070/ref=ppx_yo_dt
 7.	Went through each folder in “EFI/OC” and only kept “Opencore.efi”, “Bootstrap/Bootstrap.efi”, “Drivers/OpenRuntime.efi”, and “Tools/OpenShell.efi”
 8.	Using SSDTTime, unzip the folder and open it in the terminal. From here, I ran the python script and: <br />
 >>The DSDT is the largest and most important table because this is where the motherboard devices are described. As the DSDT, along with other ACPI tables, is stored in the BIOS only on-board hardware is described. <br />
-  a.	Pressed 4 to dump the system DSDT <br />
+  <<a.	Pressed 4 to dump the system DSDT <br />
   b.	Pressed 1 to patch any IRQ conflicts <br />
   c.	Pressed 2 to make the OS aware of the fake EC <br />
   d.	Pressed 3 to set plugin-type to 1 on CPU0/PR00 <br />
