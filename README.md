@@ -27,12 +27,12 @@ USB Bluetooth Adapter: https://www.amazon.ca/gp/product/B00DJ83070/ref=ppx_yo_dt
 5.	Removed “Docs” (only after moving the “Sample.plist” file to the USB under “EFI/OC”) and “Utilities” as they are not needed.
 6.	Took the “EFI” folder and moved it into the USB
 7.	Went through each folder in “EFI/OC” and only kept “Opencore.efi”, “Bootstrap/Bootstrap.efi”, “Drivers/OpenRuntime.efi”, and “Tools/OpenShell.efi”
-8.	Using SSDTTime, unzip the folder and open it in the terminal. From here, I ran the python script and:
-  a.	Pressed 4 to dump the system DSDT
-  b.	Pressed 1 to patch any IRQ conflicts
-  c.	Pressed 2 to make the OS aware of the fake EC
-  d.	Pressed 3 to set plugin-type to 1 on CPU0/PR00
-      Now MacOS will know the pc’s hardware.
+8.	Using SSDTTime, unzip the folder and open it in the terminal. From here, I ran the python script and: <br />
+  a.	Pressed 4 to dump the system DSDT <br />
+  b.	Pressed 1 to patch any IRQ conflicts <br />
+  c.	Pressed 2 to make the OS aware of the fake EC <br />
+  d.	Pressed 3 to set plugin-type to 1 on CPU0/PR00 <br />
+      Now MacOS will know the pc’s hardware. <br />
       Under the results folder, took “SSDT-EC.aml”, “SSDT-HPET.aml”, and “SSDT-PLUG.aml” files and moved them to the USB into “EFI/OC/ACPI”.
 9.  Rename “Sample.plist” to “config.plist”
 10.	Modified the config.plist to work with the hardware and kexts using ProperTree (https://github.com/corpnewt/ProperTree)
